@@ -46,19 +46,23 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.adress-link {
+.address-link {
   color: #434455;
 }
-.adress-link.link:hover .adress-link.link:focus {
+.address-link.link:hover .address-link.link:focus {
   color: #404bbf;
+}
+.main-peage {
+  background-color: #2e2f42;
 }
 .caption {
   font-weight: 700;
   font-size: 56px;
   color: #fff;
   background-color: #2e2f42;
-  line-height: 1.2;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .button {
   font-family: "Roboto", sans-serif;
