@@ -27,6 +27,9 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.menu-list {
+  color: #2e2f42;
+}
 .menu-item {
   font-weight: 500;
   font-size: 16px;
@@ -39,12 +42,23 @@ a {
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.adress-link {
+  color: #434455;
+}
+.adress-link.link:hover .adress-link. link:focus {
+  color: #404bbf;
 }
 .caption {
   font-weight: 700;
   font-size: 56px;
   color: #fff;
   background-color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .button {
   color: #fff;
@@ -66,11 +80,13 @@ a {
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -83,17 +99,20 @@ a {
   background-color: #ffffff;
 }
 .team-image {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .team-text {
   font-weight: 400;
   font-size: 16px;
   color: #434455;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .portfolio-title {
@@ -112,11 +131,15 @@ a {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .foter-conteiner {
   background: #2e2f42;
@@ -126,15 +149,23 @@ a {
   font-weight: 700;
   font-size: 18px;
   color: #f4f4fd;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   font-weight: 400;
   font-size: 16px;
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
