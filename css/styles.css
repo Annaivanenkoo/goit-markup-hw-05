@@ -36,6 +36,10 @@ a {
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.menu-item:hover,
+.menu-item:focus {
   color: #404bbf;
 }
 .address {
