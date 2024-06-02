@@ -151,13 +151,15 @@ img {
   display: flex;
   gap: 24px;
 }
+.advantages-list-info {
+  width: calc((100%-72px) / 4);
+}
 .advantages-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  width: calc((100%-72px) / 4);
   margin-bottom: 8px;
 }
 .advantages-text {
@@ -190,11 +192,13 @@ img {
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
   display: flex;
+  padding-left: 0;
+  margin: 0;
 }
 .team-image {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 .team-subtitle {
   font-weight: 500;
@@ -202,7 +206,7 @@ img {
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+
   margin-bottom: 8px;
 }
 .team-text {
@@ -211,7 +215,6 @@ img {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 /* Section 4 */
 .portfolio {
