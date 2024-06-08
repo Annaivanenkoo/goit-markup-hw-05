@@ -291,7 +291,9 @@ h6 {
 .icon-social-img {
   fill: #f4f4fd;
 }
-.icon-social-link:hover,
+.icon-social-link:hover {
+  background-color: #404bbf;
+}
 .icon-social-link:focus {
   background-color: #404bbf;
 }
@@ -311,6 +313,7 @@ h6 {
 }
 .portfolio-list-info {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-info:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -330,7 +333,6 @@ h6 {
 }
 .portfolio-image {
   background: #fff;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-image-container {
   position: relative;
@@ -377,6 +379,12 @@ h6 {
   background: #2e2f42;
   padding: 100px 0;
 }
+.footer-logo-container {
+  margin-right: 0;
+}
+.footer-icon-container {
+  margin-left: 120px;
+}
 .footer-logo-span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -421,6 +429,7 @@ h6 {
 .footer-list-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link {
   height: 100%;
@@ -430,7 +439,9 @@ h6 {
   align-items: center;
   justify-content: center;
 }
-.footer-icon-link:hover,
+.footer-icon-link:hover {
+  background-color: #31d0aa;
+}
 .footer-icon-link:focus {
   background-color: #31d0aa;
 }
