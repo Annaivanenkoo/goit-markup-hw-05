@@ -74,17 +74,19 @@ h6 {
   margin: 0;
 }
 .menu-item-list {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  color: #404bbf;
 }
 .menu-item-list::after {
   content: "";
   width: 100%;
-  position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
+  width: 100%;
   background-color: #404bbf;
   border-radius: 2px;
+  display: block;
 }
 
 .menu-item {
@@ -278,7 +280,7 @@ h6 {
 .icon-social {
   width: 40px;
   height: 40px;
-  transition: ;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social .icon-social-link {
   width: 100%;
@@ -302,10 +304,10 @@ h6 {
 .icon-social-img {
   fill: #f4f4fd;
 }
-.icon-social-link:hover {
+.icon-social-img:hover {
   background-color: #404bbf;
 }
-.icon-social-link:focus {
+.icon-social-img:focus {
   background-color: #404bbf;
 }
 /* Section 4 */
@@ -395,7 +397,7 @@ h6 {
   margin-right: 0;
 }
 .footer-icon-container {
-  margin-left: 120px;
+  margin-right: 120px;
 }
 .footer-logo-span {
   font-family: "Raleway", sans-serif;
