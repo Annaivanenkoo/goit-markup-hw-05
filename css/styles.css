@@ -70,7 +70,10 @@ h5,
 h6 {
   margin: 0;
 }
-.menu-item-list::after {
+.menu-item-list {
+  color: #404bbf;
+}
+.menu-item-list.current::after {
   content: "";
   width: 100%;
   left: 0;
