@@ -64,7 +64,7 @@ p {
   text-transform: uppercase;
   margin-right: 76px;
 }
-/* Section 1 */
+
 h1,
 h2,
 h3,
@@ -125,7 +125,7 @@ h6 {
 .adress-link:focus {
   color: #404bbf;
 }
-
+/* Section 1 */
 .main-paige {
   background-color: #2e2f42;
   padding: 188px 0;
