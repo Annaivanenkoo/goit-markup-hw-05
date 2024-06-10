@@ -275,6 +275,8 @@ h6 {
 .icon-social {
   width: 40px;
   height: 40px;
+}
+.icon-social-link {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social .icon-social-link {
@@ -299,8 +301,8 @@ h6 {
 .icon-social-img {
   fill: #f4f4fd;
 }
-.icon-social-img:hover,
-.icon-social-img:focus {
+.icon-social-link:hover,
+.icon-social-link:focus {
   background-color: #404bbf;
 }
 /* Section 4 */
@@ -320,18 +322,20 @@ h6 {
 .portfolio-list-info {
   width: calc((100% - 48px) / 3);
   position: relative;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list-info:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list-info:hover .portfolio-image-text {
   transform: translateY(0%);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-container {
   padding: 32px 16px;
