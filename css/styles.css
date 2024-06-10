@@ -73,6 +73,7 @@ h6 {
 .menu-item-list {
   color: #404bbf;
 }
+.menu-item-list.current::before,
 .menu-item-list.current::after {
   content: "";
   width: 100%;
