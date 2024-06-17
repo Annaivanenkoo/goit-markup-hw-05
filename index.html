@@ -466,9 +466,27 @@
             </li>
           </ul>
         </div>
+        <div class="form-container">
+          <p class="form-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input
+                name="email"
+                type="email"
+                placeholder="E-mail"
+                class="footer-input"
+              />
+            </label>
+            <button class="button-subscribe" type="submit">
+              Subscribe<svg width="24" height="24" class="button-icon">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close" href="">
           <svg class="icon-close" width="8" height="8">
@@ -477,22 +495,21 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="modal-field">
-            <label class="modal-label" for="user-name"
-              >Name
-              <div class="modal-field-wrap">
-                <input
-                  id="user-name"
-                  type="text"
-                  name="user-name"
-                  class="modal-input"
-                  placeholder=""
-                />
-                <svg class="modal-icon" width="18" height="24">
-                  <use href="./images/icons.svg#icon-person"></use>
-                </svg>
-              </div>
-            </label>
+          <div class="modal-field-name">
+            <label class="modal-label" for="user-name">Name </label>
+            <div class="modal-field-wrap">
+              <input
+                id="user-name"
+                type="text"
+                name="user-name"
+                class="modal-input"
+                placeholder=""
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+
             <label class="modal-label" for="user-tel"
               >Phone
               <div class="modal-field">
@@ -544,7 +561,10 @@
                     <use href="./images/icons.svg#icon-vector"></use>
                   </svg>
                 </span>
-                I accept the terms and conditions of the
+                <span
+                  >I accept the terms and conditions of the
+                  <a class="policy-link">Privacy Policy</a></span
+                >
               </label>
             </div>
             <button class="send-button" type="submit">Send</button>
