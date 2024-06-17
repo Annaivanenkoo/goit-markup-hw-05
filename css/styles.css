@@ -601,13 +601,10 @@ h6 {
   line-height: 1.17;
   color: #8e8f99;
 }
-.modal-field-name {
-  margin-bottom: 8px;
-}
 
 .modal-field {
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
