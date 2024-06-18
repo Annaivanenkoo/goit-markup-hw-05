@@ -662,6 +662,8 @@ h6 {
   border-radius: 2px;
   margin-right: 12px;
   align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
 .policy-link {
   color: #4d5ae5;
