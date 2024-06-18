@@ -641,7 +641,6 @@ h6 {
   margin-bottom: 24px;
 }
 .label-checkbox {
-  display: flex;
   letter-spacing: 0.04em;
   font-weight: 400;
   font-size: 12px;
