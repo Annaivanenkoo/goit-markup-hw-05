@@ -644,10 +644,24 @@ h6 {
   margin-bottom: 24px;
 }
 .label-checkbox {
+  display: flex;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  color: #8e8f99;
+}
+.label-checkbox span {
+  width: 16px;
+  height: 16px;
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  border-radius: 2px;
+  margin-right: 12px;
+  align-items: center;
 }
 .policy-link {
   color: #4d5ae5;
@@ -665,7 +679,7 @@ h6 {
   justify-content: center;
   fill: transparent;
 }
-.send-button {
+.modal-btn {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -681,4 +695,9 @@ h6 {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
+}
+.modal-check:checked + .label-checkbox span {
+  color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
